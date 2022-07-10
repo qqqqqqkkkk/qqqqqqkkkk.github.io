@@ -37,10 +37,10 @@ timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for
 author:
   type      : # "person" (default), "organization"
   name      : 不吃胡萝卜
-  url       :https://qqqqqqkkkk.github.io/
+  url       : https://qqqqqqkkkk.github.io/
   avatar    :  https://tse3-mm.cn.bing.net/th/id/OIP-C.XVx9zD0JXMKpYRK5YAOG3wHaHa?pid=ImgDet&rs=1
   bio       : a handsome boy(bushi
-  email     :1253838519@qq.com
+  email     : 1253838519@qq.com
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
   weibo     : # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
