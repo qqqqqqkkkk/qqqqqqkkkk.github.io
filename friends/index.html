@@ -44,7 +44,7 @@
 <meta property="og:description" content="这里将记录我的学习感悟和生活感悟">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
-<meta property="article:published_time" content="2023-08-10T01:41:51.232Z">
+<meta property="article:published_time" content="2023-08-10T02:47:51.152Z">
 <meta property="article:modified_time" content="2023-08-10T01:41:51.232Z">
 <meta property="article:author" content="clock">
 <meta name="twitter:card" content="summary">
@@ -714,122 +714,6 @@ button {
   -webkit-opacity: 1;
   -moz-opacity: 1;
   border-bottom: 2px solid var(--color-site-inner);
-}
-.cover-wrapper.dock .menu,
-.cover-wrapper.featured .menu,
-.cover-wrapper.focus .menu {
-  border-radius: 6px;
-  -webkit-border-radius: 6px;
-}
-.cover-wrapper.dock .menu .list-h a,
-.cover-wrapper.featured .menu .list-h a,
-.cover-wrapper.focus .menu .list-h a {
-  -webkit-box-direction: normal;
-  -moz-box-direction: normal;
-  -webkit-box-orient: vertical;
-  -moz-box-orient: vertical;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  align-items: center;
-  padding: 12px;
-  line-height: 24px;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
-  border-bottom: none;
-  text-align: center;
-  align-content: flex-end;
-  color: rgba(68,68,68,0.7);
-  font-size: 1.5rem;
-}
-@media screen and (max-width: 500px) {
-  .cover-wrapper.dock .menu .list-h a,
-  .cover-wrapper.featured .menu .list-h a,
-  .cover-wrapper.focus .menu .list-h a {
-    padding: 12px 8px;
-  }
-}
-.cover-wrapper.dock .menu .list-h a i,
-.cover-wrapper.featured .menu .list-h a i,
-.cover-wrapper.focus .menu .list-h a i {
-  margin: 8px;
-}
-.cover-wrapper.dock .menu .list-h a p,
-.cover-wrapper.featured .menu .list-h a p,
-.cover-wrapper.focus .menu .list-h a p {
-  font-size: 0.875rem;
-}
-.cover-wrapper.dock .menu .list-h a.active,
-.cover-wrapper.featured .menu .list-h a.active,
-.cover-wrapper.focus .menu .list-h a.active {
-  background: var(--color-card);
-  backdrop-filter: none;
-}
-.cover-wrapper.dock .menu .list-h a.active i,
-.cover-wrapper.featured .menu .list-h a.active i,
-.cover-wrapper.focus .menu .list-h a.active i,
-.cover-wrapper.dock .menu .list-h a.active i+p,
-.cover-wrapper.featured .menu .list-h a.active i+p,
-.cover-wrapper.focus .menu .list-h a.active i+p {
-  color: #3dd9b6;
-}
-.cover-wrapper.dock .menu .list-h a.active img+p,
-.cover-wrapper.featured .menu .list-h a.active img+p,
-.cover-wrapper.focus .menu .list-h a.active img+p {
-  color: var(--color-text);
-}
-.cover-wrapper.dock .menu .list-h a:hover,
-.cover-wrapper.featured .menu .list-h a:hover,
-.cover-wrapper.focus .menu .list-h a:hover {
-  background: var(--color-card);
-}
-.cover-wrapper.dock .top {
-  margin-bottom: 48px;
-}
-.cover-wrapper.dock .menu {
-  background: rgba(255,255,255,0.5);
-  position: absolute;
-  bottom: 0;
-  max-width: 100%;
-}
-.cover-wrapper.dock .menu .list-h {
-  flex-wrap: nowrap;
-  -webkit-flex-wrap: nowrap;
-  -khtml-flex-wrap: nowrap;
-  -moz-flex-wrap: nowrap;
-  -o-flex-wrap: nowrap;
-  -ms-flex-wrap: nowrap;
-  margin: 4px;
-}
-.cover-wrapper.dock .menu .list-h a+a {
-  margin-left: 4px;
-}
-@media screen and (max-width: 500px) {
-  .cover-wrapper.dock .menu .list-h {
-    overflow-x: scroll;
-  }
-  .cover-wrapper.dock .menu .list-h::-webkit-scrollbar {
-    height: 0;
-    width: 0;
-  }
-  .cover-wrapper.dock .menu .list-h::-webkit-scrollbar-track-piece {
-    background: transparent;
-  }
-  .cover-wrapper.dock .menu .list-h::-webkit-scrollbar-thumb {
-    background: #3dd9b6;
-    cursor: pointer;
-    border-radius: 0;
-    -webkit-border-radius: 0;
-  }
-  .cover-wrapper.dock .menu .list-h::-webkit-scrollbar-thumb:hover {
-    background: #ff5722;
-  }
-}
-@supports (backdrop-filter: blur(20px)) {
-  .cover-wrapper.dock .menu {
-    background: rgba(255,255,255,0.5);
-    backdrop-filter: saturate(200%) blur(20px);
-  }
 }
 @font-face {
   font-family: 'UbuntuMono';
@@ -1744,7 +1628,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: "env",
     cdn: {"js":{"app":"/js/app.js","parallax":"/js/plugins/parallax.js","rightMenu":"/js/plugins/rightMenu.js","rightMenus":"/js/plugins/rightMenus.js","sites":"/js/plugins/tags/sites.js","friends":"/js/plugins/tags/friends.js","contributors":"/js/plugins/tags/contributors.js","search":"/js/search/hexo.js"},"css":{"style":"/css/style.css"}},
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1691634846933),
+    lastupdate: new Date(1691654774120),
     sidebar: {
       for_page: ["blogger","category","tagcloud","donate"],
       for_post: ["toc"],
@@ -2441,63 +2325,73 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
     
       <!-- see: /layout/_partial/scripts/_ctrl/coverCtrl.ejs -->
-      <div id="none" class='cover-wrapper friends dock' style="display: none;">
+      <div id="none" class='cover-wrapper friends search' style="display: none;">
         
-  <div class='cover-bg lazyload placeholder' data-bg="https://gcore.jsdelivr.net/gh/MHG-LAB/cron@gh-pages/bing/bing.jpg"></div>
+  <div class='cover-bg lazyload placeholder' data-bg="https://img1.baidu.com/it/u=2332022306,1629767074&fm=253&app=138&size=w931&n=0&f=JPEG&fmt=auto?sec=1691773200&t=cbcce3fd5054d1124e353b983d9866ea"></div>
 
 <div class='cover-body'>
   <div class='top'>
     
     
-      <p class="title">Volantis</p>
+      <p class="title">clock的小窝</p>
     
+    
+      <p class="subtitle">记录我的学习和生活</p>
     
   </div>
   <div class='bottom'>
+    
+      <div class="m_search">
+        <form name="searchform" class="form u-search-form">
+          <input type="text" class="input u-search-input" placeholder="A Wonderful Theme for Hexo" />
+          <i class="icon fa-solid fa-search fa-fw"></i>
+        </form>
+      </div>
+    
     <div class='menu navigation'>
       <div class='list-h'>
         
           
-            <a href="/v4/getting-started/"
+            <a href="/"
               
               
-              active-action="action-v4getting-started">
-              <img src='https://unpkg.com/volantis-static@0.0.1654736714924/media/twemoji/assets/svg/1f5c3.svg'><p>文档</p>
+              active-action="action-home">
+              <i class='fa-solid fa-rss fa-fw'></i><p>博客</p>
             </a>
           
-            <a href="/faqs/"
+            <a href="/categories/"
               
               
-              active-action="action-faqs">
-              <img src='https://unpkg.com/volantis-static@0.0.1654736714924/media/twemoji/assets/svg/1f516.svg'><p>帮助</p>
+              active-action="action-categories">
+              <i class='fa-solid fa-folder-open fa-fw'></i><p>分类</p>
             </a>
           
-            <a href="/examples/"
+            <a href="/tags/"
               
               
-              active-action="action-examples">
-              <img src='https://unpkg.com/volantis-static@0.0.1654736714924/media/twemoji/assets/svg/1f396.svg'><p>示例</p>
-            </a>
-          
-            <a href="/contributors/"
-              
-              
-              active-action="action-contributors">
-              <img src='https://unpkg.com/volantis-static@0.0.1654736714924/media/twemoji/assets/svg/1f389.svg'><p>社区</p>
+              active-action="action-tags">
+              <i class='fa-solid fa-tags fa-fw'></i><p>标签</p>
             </a>
           
             <a href="/archives/"
               
               
               active-action="action-archives">
-              <img src='https://unpkg.com/volantis-static@0.0.1654736714924/media/twemoji/assets/svg/1f4f0.svg'><p>博客</p>
+              <i class='fa-solid fa-archive fa-fw'></i><p>归档</p>
             </a>
           
-            <a target="_blank" rel="noopener" href="https://github.com/volantis-x/hexo-theme-volantis/"
+            <a href="/friends/"
               
               
-              active-action="action-https:githubcomvolantis-xhexo-theme-volantis">
-              <img src='https://unpkg.com/volantis-static@0.0.1654736714924/media/twemoji/assets/svg/1f9ec.svg'><p>源码</p>
+              active-action="action-friends">
+              <i class='fa-solid fa-link fa-fw'></i><p>友链</p>
+            </a>
+          
+            <a href="/about/"
+              
+              
+              active-action="action-about">
+              <i class='fa-solid fa-info-circle fa-fw'></i><p>关于</p>
             </a>
           
         
@@ -2551,7 +2445,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           
         
           
-            <div class="new-meta-item date" itemprop="dateCreated datePublished" datetime="2023-08-10T09:41:51+08:00">
+            <div class="new-meta-item date" itemprop="dateCreated datePublished" datetime="2023-08-10T10:47:51+08:00">
   <a class='notlink'>
     <i class="fa-solid fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：Aug 10, 2023</p>
@@ -2576,6 +2470,28 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
     
+    
+      
+        <div class='friends-group'>
+          <br>
+          <h2 class='friend-header'>
+            分组1
+          </h2>
+          
+            <p>友情链接</p>
+
+          
+          
+            <div class='friend-content'>
+              
+                
+              
+                
+              
+            </div>
+          
+        </div>
+      
     
     <br><br>
     
@@ -2792,9 +2708,30 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         <div class="social-wrapper" itemprop="about" itemscope itemtype="http://schema.org/Thing">
           
             
-          
+              <a href="/atom.xml"
+                class="social fas fa-rss flat-btn"
+                target="_blank"
+                rel="external nofollow noopener noreferrer" itemprop="url">
+                
+              </a>
             
           
+            
+              <a href="mailto:1253838519@qq.com"
+                class="social fas fa-envelope flat-btn"
+                target="_blank"
+                rel="external nofollow noopener noreferrer" itemprop="url">
+                
+              </a>
+            
+          
+            
+              <a href="https://github.com/qqqqqqkkkk"
+                class="social fab fa-github flat-btn"
+                target="_blank"
+                rel="external nofollow noopener noreferrer" itemprop="url">
+                
+              </a>
             
           
         </div>
@@ -2806,13 +2743,6 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
     
       
-        
-          <div><p><span id="lc-sv">本站总访问量为 <span id='number'><i class="fa-solid fa-loader fa-spin fa-fw" aria-hidden="true"></i></span> 次</span> <span id="lc-uv">访客数为 <span id='number'><i class="fa-solid fa-loader fa-spin fa-fw" aria-hidden="true"></i></span> 人</span></p>
-</div>
-        
-      
-    
-      
         Use
         <a href="https://github.com/volantis-x/hexo-theme-volantis/#5.8.0" target="_blank" class="codename">Volantis</a>
         as theme
@@ -2820,7 +2750,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
       
         <div class='copyright'>
-        <p><a href="/">Copyright © since 2017 XXX</a></p>
+        <p><a href="/">Copyright © 2017-2021 XXX</a></p>
 
         </div>
       
@@ -3265,7 +3195,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"clock的小窝","url":"https://qqqqqqkkkk.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"clock","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://qqqqqqkkkk.github.io/","sameAs":["https://github.com/volantis-x"],"description":"这里将记录我的学习感悟和生活感悟"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://qqqqqqkkkk.github.io/","name":"clock的小窝"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"clock的小窝","url":"https://qqqqqqkkkk.github.io/","keywords":null,"description":"这里将记录我的学习感悟和生活感悟","author":{"@type":"Person","name":"clock","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://qqqqqqkkkk.github.io/","description":"这里将记录我的学习感悟和生活感悟"},"publisher":{"@type":"Organization","name":"clock的小窝","url":"https://qqqqqqkkkk.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://qqqqqqkkkk.github.io?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"我的朋友们","description":"这里将记录我的学习感悟和生活感悟","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage","@id":"https://qqqqqqkkkk.github.io/friends/index.html"},"author":{"@type":"Person","name":"clock","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://qqqqqqkkkk.github.io/"},"publisher":{"@type":"Organization","name":"clock的小窝","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://qqqqqqkkkk.github.io/friends/index.html","wordCount":0,"datePublished":"2023-08-10T01:41:51.232Z","dateModified":"2023-08-10T01:41:51.232Z","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"clock的小窝","url":"https://qqqqqqkkkk.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"clock","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://qqqqqqkkkk.github.io/","sameAs":["https://github.com/volantis-x"],"description":"这里将记录我的学习感悟和生活感悟"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://qqqqqqkkkk.github.io/","name":"clock的小窝"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"clock的小窝","url":"https://qqqqqqkkkk.github.io/","keywords":null,"description":"这里将记录我的学习感悟和生活感悟","author":{"@type":"Person","name":"clock","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://qqqqqqkkkk.github.io/","description":"这里将记录我的学习感悟和生活感悟"},"publisher":{"@type":"Organization","name":"clock的小窝","url":"https://qqqqqqkkkk.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://qqqqqqkkkk.github.io?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"我的朋友们","description":"这里将记录我的学习感悟和生活感悟","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage","@id":"https://qqqqqqkkkk.github.io/friends/index.html"},"author":{"@type":"Person","name":"clock","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://qqqqqqkkkk.github.io/"},"publisher":{"@type":"Organization","name":"clock的小窝","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://qqqqqqkkkk.github.io/friends/index.html","wordCount":0,"datePublished":"2023-08-10T02:47:51.152Z","dateModified":"2023-08-10T01:41:51.232Z","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 
