@@ -5,8 +5,8 @@
   <meta name="Volantis" content="5.8.0">
   <meta charset="utf-8">
   <!-- SEO相关 -->
-  <meta name="robots" content="noindex,follow">
-  <link rel="canonical" href="https://qqqqqqkkkk.github.io/archives/2023/07/"/>
+  
+  <link rel="canonical" href="https://qqqqqqkkkk.github.io/2023/07/13/优惠券类app分析系列02/"/>
   <!-- 渲染优化 -->
     <meta http-equiv='x-dns-prefetch-control' content='on' />
       <link rel='dns-prefetch' href='https://unpkg.com'>
@@ -33,18 +33,22 @@
 
   <!-- feed -->
   <!-- 页面元数据 -->
-  <title>Archive: 2023/7 - clock的小窝</title>
-  <meta name="keywords" content="null">
+  <title>优惠券系统02--后端千牛功能分析 - clock的小窝</title>
+  <meta name="keywords" content="产品经理,竞品分析,null">
   <meta desc name="description" content="这里将记录我的学习感悟和生活感悟 - clock - clock的小窝">
   
-<meta property="og:type" content="website">
-<meta property="og:title" content="clock的小窝">
-<meta property="og:url" content="https://qqqqqqkkkk.github.io/archives/2023/07/index.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="优惠券系统02--后端千牛功能分析">
+<meta property="og:url" content="https://qqqqqqkkkk.github.io/2023/07/13/%E4%BC%98%E6%83%A0%E5%88%B8%E7%B1%BBapp%E5%88%86%E6%9E%90%E7%B3%BB%E5%88%9702/index.html">
 <meta property="og:site_name" content="clock的小窝">
-<meta property="og:description" content="这里将记录我的学习感悟和生活感悟">
+<meta property="og:description" content="## 前言 昨天对淘宝的竞品分析感觉做的一塌糊涂，具体原因就是我竞品分析的方法出现了问题，所以我在这里重申下竞品分析的方法：先明确自己想做的优惠券系统有什么功能 -&gt; 竞品是通过什么流程实现该功能的（页面流程图） -&gt; 将页面的优点功能提取出来、页面的缺点功能提取出来  好了 现在我将根据新的竞品分析的方法来做千牛的竞品分析 明确自己想做的优惠券系统后台有什么功能 创建优惠券 管理优惠券 审核优">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
+<meta property="article:published_time" content="2023-07-13T06:21:54.000Z">
+<meta property="article:modified_time" content="2023-08-12T06:31:43.153Z">
 <meta property="article:author" content="clock">
+<meta property="article:tag" content="产品经理">
+<meta property="article:tag" content="竞品分析">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
   <style>
@@ -2054,7 +2058,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <!-- Custom Files bodyBegin end-->
     <!-- front-matter body_begin begin -->
     <!-- front-matter body_begin end -->
-    <header itemscope itemtype="http://schema.org/WPHeader" id="l_header" class="l_header auto shadow floatable blur " style='opacity: 0' >
+    <header itemscope itemtype="http://schema.org/WPHeader" id="l_header" class="l_header auto shadow floatable blur show" style='opacity: 0' >
   <div class='container'>
   <div id='wrapper'>
     <div class='nav-sub'>
@@ -2323,7 +2327,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
     
       <!-- see: /layout/_partial/scripts/_ctrl/coverCtrl.ejs -->
-      <div id="half" class='cover-wrapper  search' style="display: ;">
+      <div id="none" class='cover-wrapper post search' style="display: none;">
         
   <div class='cover-bg lazyload placeholder' data-bg="https://img1.baidu.com/it/u=2332022306,1629767074&fm=253&app=138&size=w931&n=0&f=JPEG&fmt=auto?sec=1691773200&t=cbcce3fd5054d1124e353b983d9866ea"></div>
 
@@ -2408,23 +2412,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         <div class="body-wrapper">
           
 <div id="l_main" class=''>
-	
-		
-  <section class="post-list">
-    
-      
-        
-          
-        
-          
-        
-      
-    
-    
-      
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
+  <article itemscope itemtype="http://schema.org/Article" class="article post white-box reveal md shadow floatable blur article-type-post" id="post" itemscope itemprop="blogPost">
   <link itemprop="mainEntityOfPage" href="https://qqqqqqkkkk.github.io/2023/07/13/优惠券类app分析系列02/">
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="clock的小窝">
@@ -2434,124 +2422,242 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <meta itemprop="description" content="这里将记录我的学习感悟和生活感悟">
   </span>
   
-  
+
+
   
     <span hidden>
       <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
     </span>
   
-  
+  <div class="article-meta" id="top">
     
-    <h2 class="article-title"  itemprop="name headline">
-      <a href="/2023/07/13/%E4%BC%98%E6%83%A0%E5%88%B8%E7%B1%BBapp%E5%88%86%E6%9E%90%E7%B3%BB%E5%88%9702/"  itemprop="url">
+    
+    
+      <h1 class="title" itemprop="name headline">
         优惠券系统02--后端千牛功能分析
-      </a>
-    </h2>
-  
-  <div class='md article-desc' itemprop="articleBody">
-    
-      
+      </h1>
+      <div class='new-meta-box'>
         
+          
+            
+<div class='new-meta-item author' itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <a itemprop="url" class='author' href="/" rel="nofollow">
+    <img itemprop="image" src="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/apple-touch-icon.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/apple-touch-icon.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+    <p itemprop="name">请设置文章作者</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+
+          
+        
+          
+            <div class="new-meta-item date" itemprop="dateCreated datePublished" datetime="2023-07-13T14:21:54+08:00">
+  <a class='notlink'>
+    <i class="fa-solid fa-calendar-alt fa-fw" aria-hidden="true"></i>
+    <p>发布于：Jul 13, 2023</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+
+
+
+          
+        
+        <!-- Custom Files topMeta begin-->
+        
+        <!-- Custom Files topMeta end-->
+      </div>
+    
+  </div>
+
+
+  <div id="layoutHelper-page-plugins"></div>
+  <div id="post-body" itemprop="articleBody">
+    <meta name="referrer" content="no-referrer"/>
 ## 前言
 昨天对淘宝的竞品分析感觉做的一塌糊涂，具体原因就是我竞品分析的方法出现了问题，所以我在这里重申下竞品分析的方法：先明确自己想做的优惠券系统有什么功能 -> 竞品是通过什么流程实现该功能的（页面流程图） -> 将页面的优点功能提取出来、页面的缺点功能提取出来
 
-好了 现在我将根据新的竞品分析的方法来做千牛的竞品分析
-明确自己想做的优惠券系统后台有什么功能
-创建优惠券
-管理优惠券
-...
-      
-    
+<p>好了 现在我将根据新的竞品分析的方法来做千牛的竞品分析</p>
+<h2 id="明确自己想做的优惠券系统后台有什么功能"><a href="#明确自己想做的优惠券系统后台有什么功能" class="headerlink" title="明确自己想做的优惠券系统后台有什么功能"></a>明确自己想做的优惠券系统后台有什么功能</h2><ul>
+<li>创建优惠券</li>
+<li>管理优惠券</li>
+<li>审核优惠券</li>
+<li>发放优惠券</li>
+<li>停止发放优惠券</li>
+<li>优惠券数据系统</li>
+</ul>
+<h2 id="千牛是通过什么流程实现该功能的（页面流程图）"><a href="#千牛是通过什么流程实现该功能的（页面流程图）" class="headerlink" title="千牛是通过什么流程实现该功能的（页面流程图）"></a>千牛是通过什么流程实现该功能的（页面流程图）</h2><ul>
+<li>创建优惠券：优惠券页 -&gt; 创建商品优惠券</li>
+<li>管理优惠券：优惠券页</li>
+<li>审核优惠券：千牛暂无审核优惠券功能</li>
+<li>发放优惠券：在创建优惠券后直接发放了</li>
+<li>停止发放优惠券：优惠券页</li>
+<li>优惠券数据系统：优惠券页的数据概览</li>
+</ul>
+<h2 id="将页面的优点功能提取出来、页面的缺点功能提取出来"><a href="#将页面的优点功能提取出来、页面的缺点功能提取出来" class="headerlink" title="将页面的优点功能提取出来、页面的缺点功能提取出来"></a>将页面的优点功能提取出来、页面的缺点功能提取出来</h2><h3 id="创建优惠券："><a href="#创建优惠券：" class="headerlink" title="创建优惠券："></a>创建优惠券：</h3><p><img src="https://img-blog.csdnimg.cn/ef36c8e63bf642bdb499a447c675054f.png" class="lazyload" data-srcset="https://img-blog.csdnimg.cn/ef36c8e63bf642bdb499a447c675054f.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="在这里插入图片描述"><br>优点：创建功能放在页面最上方，便于商家直接去创建。显示优惠券创建个数和最高上限，便于商家对优惠券数量进行管理。创建优惠券按钮很醒目，利于用户发现后直接点击。而且创建优惠券的时候可以直接在外面选择优惠券的类型，不用点击创建优惠券后再选择类型，降低用户操作复杂度。</p>
+<p>想法：到时候可以直接分为创建优惠券、创建折扣券、创建无门槛券</p>
+<p><img src="https://img-blog.csdnimg.cn/7a7fb0fa588e4550b41e429699cf6aa0.png" class="lazyload" data-srcset="https://img-blog.csdnimg.cn/7a7fb0fa588e4550b41e429699cf6aa0.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="在这里插入图片描述"><br>优点：创建优惠券基本信息包含了优惠券名称、开始日期、结束日期、低价提醒、活动目标、到期提醒、商品范围。且旁边给出提醒“最长可提前60天创建，有效期不能超过60天”，加上⚠，可以让商家注意到，防止商家胡乱创建优惠券。低价提醒是为了保护商家权益。商品范围可以选择手动选择和批量上传，如果商品很多可以选择批量，少的话可以选择手动，便于用户操作。</p>
+<p>缺点：虽然给出了“最长可提前60天创建，有效期不能超过60天”这个提醒，但是在选择开始时间的时候和结束时间的时候还是可以瞎选，我认为可以在创建开始时间的时候把60天以后的日期调成灰色，避免用户错误操作。</p>
+<p><img src="https://img-blog.csdnimg.cn/0ab044b7f4bb49d2b58ebff5c0036953.png" class="lazyload" data-srcset="https://img-blog.csdnimg.cn/0ab044b7f4bb49d2b58ebff5c0036953.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="在这里插入图片描述"><br>优点：面额信息包含优惠金额、使用门槛、发行量、每人限领。其中优惠如果大于5000会提示错误、门槛高于优惠金额也会报错误，防止商家犯错。发行量旁边的提示可以让商家决定发行量。每人限领是个下拉菜单：1、2、3、4、5、不限，给出最常见的限领张数，可以降低用户操作成本。</p>
+<p>缺点：不能设置无门槛券。且每人限领中没有其它这一选项，万一商家想要没人可以领取10张，反而没有这个选项。</p>
+<h3 id="管理优惠券"><a href="#管理优惠券" class="headerlink" title="管理优惠券"></a>管理优惠券</h3><p><img src="https://img-blog.csdnimg.cn/29eb4eb827df4e7b902f50e312d9df65.png" class="lazyload" data-srcset="https://img-blog.csdnimg.cn/29eb4eb827df4e7b902f50e312d9df65.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="在这里插入图片描述"><br>优点：按照优惠券类型进行了分类。可以根据优惠券状态、起始日期、结束日期、优惠券id、优惠券名称、面额进行搜索筛选，便于用户查找需要的优惠券。优惠券包含id、名称、推广渠道、状态、面额、门槛、使用时间、限领、发行量、已领取数量还有可用的操作。</p>
+<p>缺点：未显示该优惠券类型有多少。起始日期和结束日期语义不明确，应该直接告诉用户选择使用时间在某一时间范围内的优惠券，而不是起始和结束。面额也可以选择一个范围，而不是只能输入一个。而且也可以根据门槛查询。</p>
+<h3 id="审核优惠券"><a href="#审核优惠券" class="headerlink" title="审核优惠券"></a>审核优惠券</h3><p>千牛没有做，我认为优惠券管理状态里可以加一个未审核、审核中、审核失败、待发放来代表有审核功能</p>
+<h3 id="发放优惠券"><a href="#发放优惠券" class="headerlink" title="发放优惠券"></a>发放优惠券</h3><p>千牛也没有做，到时候可以我来做一下</p>
+<h3 id="停止发放优惠券"><a href="#停止发放优惠券" class="headerlink" title="停止发放优惠券"></a>停止发放优惠券</h3><p>在管理优惠券里了</p>
+<h3 id="优惠券数据系统"><a href="#优惠券数据系统" class="headerlink" title="优惠券数据系统"></a>优惠券数据系统</h3><p><img src="https://img-blog.csdnimg.cn/b36083089144408a87000a83ef947716.png" class="lazyload" data-srcset="https://img-blog.csdnimg.cn/b36083089144408a87000a83ef947716.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="在这里插入图片描述"><br>优点：可以区分券类型来查看数据。使用折线图来呈现数据，更直观一点。而且可以查看本日数据较前一日、前七天、前三十天的领取张数、使用张数、支付金额、支付买家数、支付件数、客单价的变化。其中鼠标悬停在日上的时候可以选择日期，比如可以选择查看7.12较前一日的变化</p>
+<p>缺点：使用张数领取张数不区分优惠券ID优惠券名称，可以在领取张数使用张数旁边加上更多，然后弹出优惠券列表，进行选择优惠券查看</p>
+<h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>以上就是我本人对于优惠券系统后端的竞品分析，做的时候还需要再配合上同事小伙伴们的分析，然后去确定功能！</p>
+
   </div>
   
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-        <time itemprop="dateCreated datePublished" datetime="2023-07-13T14:21:54+08:00">2023-07-13</time>
-        
-      </div>
+  
+    
+    <div class='footer'>
+       <!-- 参考资料、相关资料等 -->
       
-        <div>
-          <a class='readmore' href='/2023/07/13/%E4%BC%98%E6%83%A0%E5%88%B8%E7%B1%BBapp%E5%88%86%E6%9E%90%E7%B3%BB%E5%88%9702/' itemprop="url">
-            Read More
-          </a>
-        </div>
+       <!-- 相关文章 -->
+      
+      <!-- 版权声明组件 -->
+      
+      <!-- 打赏组件 -->
       
     </div>
   
+  
+    
 
+
+  <div class='article-meta' id="bottom">
+    <div class='new-meta-box'>
+      
+        
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2023-08-12T14:31:43+08:00">
+  <a class='notlink'>
+    <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
+    <p>更新于：Aug 12, 2023</p>
+  </a>
 </div>
 
-          </div>
         
       
         
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
-  <link itemprop="mainEntityOfPage" href="https://qqqqqqkkkk.github.io/2023/07/12/优惠券类app分析系列01/">
-  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="clock的小窝">
-  </span>
-  <span hidden itemprop="post" itemscope itemtype="http://schema.org/Post">
-    <meta itemprop="name" content="clock的小窝">
-    <meta itemprop="description" content="这里将记录我的学习感悟和生活感悟">
-  </span>
+          
   
-  
-  
-    <span hidden>
-      <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
-    </span>
-  
-  
-    
-    <h2 class="article-title"  itemprop="name headline">
-      <a href="/2023/07/12/%E4%BC%98%E6%83%A0%E5%88%B8%E7%B1%BBapp%E5%88%86%E6%9E%90%E7%B3%BB%E5%88%9701/"  itemprop="url">
-        优惠券系统01--前端淘宝功能分析
-      </a>
-    </h2>
-  
-  <div class='md article-desc' itemprop="articleBody">
-    
+  <div class="new-meta-item meta-tags"><a class="tag" href="/tags/%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86/" rel="nofollow"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i><p>产品经理</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/%E7%AB%9E%E5%93%81%E5%88%86%E6%9E%90/" rel="nofollow"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i><p>竞品分析</p></a></div>
+  <span hidden itemprop="keywords">产品经理 竞品分析</span>
+
+
+        
       
         
+          
+  <div class="new-meta-item share -mob-share-list">
+  <div class="-mob-share-list share-body">
+    
+      
+        <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://qqqqqqkkkk.github.io/2023/07/13/%E4%BC%98%E6%83%A0%E5%88%B8%E7%B1%BBapp%E5%88%86%E6%9E%90%E7%B3%BB%E5%88%9702/&title=优惠券系统02--后端千牛功能分析 - clock的小窝&summary="
+          
+          >
+          
+            <img src="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/qq.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/qq.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://qqqqqqkkkk.github.io/2023/07/13/%E4%BC%98%E6%83%A0%E5%88%B8%E7%B1%BBapp%E5%88%86%E6%9E%90%E7%B3%BB%E5%88%9702/&title=优惠券系统02--后端千牛功能分析 - clock的小窝&summary="
+          
+          >
+          
+            <img src="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/qzone.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/qzone.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="http://service.weibo.com/share/share.php?url=https://qqqqqqkkkk.github.io/2023/07/13/%E4%BC%98%E6%83%A0%E5%88%B8%E7%B1%BBapp%E5%88%86%E6%9E%90%E7%B3%BB%E5%88%9702/&title=优惠券系统02--后端千牛功能分析 - clock的小窝&summary="
+          
+          >
+          
+            <img src="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/weibo.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/weibo.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+          
+        </a>
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+
+
+        
+      
+    </div>
+    <!-- Custom Files bottomMeta begin -->
+    
+    <!-- Custom Files bottomMeta end -->
+  </div>
+
+
+  
+  
+
+  
+    <div class="prev-next">
+      
+      
+        <a class='next' href='/2023/07/12/%E4%BC%98%E6%83%A0%E5%88%B8%E7%B1%BBapp%E5%88%86%E6%9E%90%E7%B3%BB%E5%88%9701/'>
+          <p class='title'>优惠券系统01--前端淘宝功能分析<i class="fa-solid fa-chevron-right" aria-hidden="true"></i></p>
+          <p class='content'>
 因公司要最近可能准备做一个优惠券系统，故准备去找电商平台去研究下优惠券系统。这篇文章就先用淘宝以及它的商家端千牛来开刀，进行一个竞品分析。
-先在这里明确下我竞品分析的方法：明确需求,找到和该需求有关的页面，分析其中的全部元素（有什么功能、包含什么信息、为什么放这个位置三个角度来分析），然后总结该页面实现的功能及对应的元素，再总结出我认为缺少的功能。这四步就是我竞品分析的步骤。
-
-前台 – ...
-      
-    
-  </div>
-  
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-        <time itemprop="dateCreated datePublished" datetime="2023-07-12T12:34:54+08:00">2023-07-12</time>
-        
-      </div>
-      
-        <div>
-          <a class='readmore' href='/2023/07/12/%E4%BC%98%E6%83%A0%E5%88%B8%E7%B1%BBapp%E5%88%86%E6%9E%90%E7%B3%BB%E5%88%9701/' itemprop="url">
-            Read More
-          </a>
-        </div>
+先在这里明确下我竞品分析的方法：明确需求,找到和该需...</p>
+        </a>
       
     </div>
   
-
-</div>
-
-          </div>
-        
-      
-    
-  </section>
+  <!-- Custom Files postEnd begin-->
   
-    
+  <!-- Custom Files postEnd end-->
+</article>
+
+
   
 
 
-	
+  <article class="post white-box shadow floatable blur" id="comments">
+    <span hidden>
+      <meta itemprop="discussionUrl" content="/2023/07/13/%E4%BC%98%E6%83%A0%E5%88%B8%E7%B1%BBapp%E5%88%86%E6%9E%90%E7%B3%BB%E5%88%9702/index.html#comments">
+    </span>
+    <p ct><i class='fa-solid fa-comments'></i> 评论</p>
+    
+
+    <div id="layoutHelper-comments"></div>
+
+  </article>
+
+
+
+
+
+
 </div>
 <aside id='l_side' itemscope itemtype="http://schema.org/WPSideBar">
   
@@ -2560,112 +2666,48 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
     
       
-<section class="widget blogger desktop mobile pjax">
-  <div class='content'>
     
-      
-        <a class='avatar flat-box rectangle' href='/about/'>
-          <img no-lazy src='https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/Logo-NavBar@3x.png'/>
-        </a>
-      
-    
-    
-      <div class='text'>
-        
-        
-        
-          <p><span id="jinrishici-sentence">clock的小窝</span></p>
-          <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
-        
-      </div>
-    
-    
-      <div class="social-wrapper">
-        
-          
-            <a href="/atom.xml"
-              class="social fa-solid fa-rss flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="mailto:me@xxx.com"
-              class="social fa-solid fa-envelope flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="https://github.com/volantis-x/"
-              class="social fab fa-github flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="/"
-              class="social fa-solid fa-headphones-alt flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-      </div>
-    
-  </div>
-</section>
-
-    
-  
-
-  
-    
-    
-      
-
-    
-  
-
-  
-    
-    
-      
-  
-  <section class="widget tagcloud desktop mobile pjax">
-    
-  <header>
-    
-      <a href='/blog/tags/'><i class="fa-solid fa-tags fa-fw" aria-hidden="true"></i><span class='name'>热门标签</span></a>
-    
-  </header>
-
-
-    <div class='content'>
-      <a href="/tags/%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86/" style="font-size: 24px; color: #555">产品经理</a> <a href="/tags/%E5%AD%A6%E4%B9%A0/" style="font-size: 14px; color: #999">学习</a> <a href="/tags/%E7%AB%9E%E5%93%81%E5%88%86%E6%9E%90/" style="font-size: 19px; color: #777">竞品分析</a>
-    </div>
-  </section>
-
-
-    
-  
-
   
 
 
 <div class="widget-sticky pjax">
 
+  
+  
+
+
+  <section class="widget toc-wrapper desktop mobile " id="toc-div" >
+    
+  <header>
+    
+      <i class="fa-solid fa-list fa-fw" aria-hidden="true"></i><span class='name'>本文目录</span>
+    
+  </header>
+
+
+    <div class='content'>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%98%8E%E7%A1%AE%E8%87%AA%E5%B7%B1%E6%83%B3%E5%81%9A%E7%9A%84%E4%BC%98%E6%83%A0%E5%88%B8%E7%B3%BB%E7%BB%9F%E5%90%8E%E5%8F%B0%E6%9C%89%E4%BB%80%E4%B9%88%E5%8A%9F%E8%83%BD"><span class="toc-text">明确自己想做的优惠券系统后台有什么功能</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%83%E7%89%9B%E6%98%AF%E9%80%9A%E8%BF%87%E4%BB%80%E4%B9%88%E6%B5%81%E7%A8%8B%E5%AE%9E%E7%8E%B0%E8%AF%A5%E5%8A%9F%E8%83%BD%E7%9A%84%EF%BC%88%E9%A1%B5%E9%9D%A2%E6%B5%81%E7%A8%8B%E5%9B%BE%EF%BC%89"><span class="toc-text">千牛是通过什么流程实现该功能的（页面流程图）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B0%86%E9%A1%B5%E9%9D%A2%E7%9A%84%E4%BC%98%E7%82%B9%E5%8A%9F%E8%83%BD%E6%8F%90%E5%8F%96%E5%87%BA%E6%9D%A5%E3%80%81%E9%A1%B5%E9%9D%A2%E7%9A%84%E7%BC%BA%E7%82%B9%E5%8A%9F%E8%83%BD%E6%8F%90%E5%8F%96%E5%87%BA%E6%9D%A5"><span class="toc-text">将页面的优点功能提取出来、页面的缺点功能提取出来</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%9B%E5%BB%BA%E4%BC%98%E6%83%A0%E5%88%B8%EF%BC%9A"><span class="toc-text">创建优惠券：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AE%A1%E7%90%86%E4%BC%98%E6%83%A0%E5%88%B8"><span class="toc-text">管理优惠券</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%A1%E6%A0%B8%E4%BC%98%E6%83%A0%E5%88%B8"><span class="toc-text">审核优惠券</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%91%E6%94%BE%E4%BC%98%E6%83%A0%E5%88%B8"><span class="toc-text">发放优惠券</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%81%9C%E6%AD%A2%E5%8F%91%E6%94%BE%E4%BC%98%E6%83%A0%E5%88%B8"><span class="toc-text">停止发放优惠券</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BC%98%E6%83%A0%E5%88%B8%E6%95%B0%E6%8D%AE%E7%B3%BB%E7%BB%9F"><span class="toc-text">优惠券数据系统</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9C%80%E5%90%8E"><span class="toc-text">最后</span></a></li></ol>
+    </div>
+  </section>
+
+  
+
 </div>
 
 
 <!-- 没有 pjax 占位会报错 万恶的 pjax -->
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
 
   <div class="pjax">
     <!-- pjax占位 -->
@@ -2693,13 +2735,14 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </aside>
 
 
+
           <!--此文件用来存放一些不方便取值的变量-->
 <!--思路大概是将值藏到重加载的区域内-->
 
 <pjax>
 <script>
   window.pdata={}
-  pdata.ispage=false;
+  pdata.ispage=true;
   pdata.commentPath="";
   pdata.commentPlaceholder="";
   pdata.commentConfig={};
@@ -2708,14 +2751,14 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     // header
     var l_header=document.getElementById("l_header");
     
-    l_header.classList.remove("show");
+    l_header.classList.add("show");
     
     
       // cover
       var cover_wrapper=document.querySelector('#l_cover .cover-wrapper');
       var scroll_down=document.getElementById('scroll-down');
-      cover_wrapper.id="half";
-      cover_wrapper.style.display="";
+      cover_wrapper.id="none";
+      cover_wrapper.style.display="none";
       scroll_down.style.display="none";
     
   
@@ -3227,7 +3270,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"clock的小窝","url":"https://qqqqqqkkkk.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"clock","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://qqqqqqkkkk.github.io/","sameAs":["https://github.com/volantis-x"],"description":"这里将记录我的学习感悟和生活感悟"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://qqqqqqkkkk.github.io/","name":"clock的小窝"}},{"@type":"ListItem","position":2,"item":{"@id":"https://qqqqqqkkkk.github.io/archives/","name":"Archive"}},{"@type":"ListItem","position":3,"item":{"@id":"https://qqqqqqkkkk.github.io/archives/2023/","name":"2023"}},{"@type":"ListItem","position":4,"item":{"@id":"https://qqqqqqkkkk.github.io/archives/2023/7/","name":"7"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"clock的小窝","url":"https://qqqqqqkkkk.github.io/","keywords":null,"description":"这里将记录我的学习感悟和生活感悟","author":{"@type":"Person","name":"clock","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://qqqqqqkkkk.github.io/","description":"这里将记录我的学习感悟和生活感悟"},"publisher":{"@type":"Organization","name":"clock的小窝","url":"https://qqqqqqkkkk.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://qqqqqqkkkk.github.io?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","description":"这里将记录我的学习感悟和生活感悟","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage"},"author":{"@type":"Person","name":"clock","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://qqqqqqkkkk.github.io/"},"publisher":{"@type":"Organization","name":"clock的小窝","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"wordCount":0,"image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"clock的小窝","url":"https://qqqqqqkkkk.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"clock","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://qqqqqqkkkk.github.io/","sameAs":["https://github.com/volantis-x"],"description":"这里将记录我的学习感悟和生活感悟"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://qqqqqqkkkk.github.io/","name":"clock的小窝"}},{"@type":"ListItem","position":3,"item":{"@id":"https://qqqqqqkkkk.github.io/2023/07/13/优惠券类app分析系列02/","name":"优惠券系统02--后端千牛功能分析"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"clock的小窝","url":"https://qqqqqqkkkk.github.io/","keywords":null,"description":"这里将记录我的学习感悟和生活感悟","author":{"@type":"Person","name":"clock","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://qqqqqqkkkk.github.io/","description":"这里将记录我的学习感悟和生活感悟"},"publisher":{"@type":"Organization","name":"clock的小窝","url":"https://qqqqqqkkkk.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://qqqqqqkkkk.github.io?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"优惠券系统02--后端千牛功能分析","description":"这里将记录我的学习感悟和生活感悟","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage","@id":"https://qqqqqqkkkk.github.io/2023/07/13/%E4%BC%98%E6%83%A0%E5%88%B8%E7%B1%BBapp%E5%88%86%E6%9E%90%E7%B3%BB%E5%88%9702/"},"author":{"@type":"Person","name":"clock","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://qqqqqqkkkk.github.io/"},"publisher":{"@type":"Organization","name":"clock的小窝","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://qqqqqqkkkk.github.io/2023/07/13/%E4%BC%98%E6%83%A0%E5%88%B8%E7%B1%BBapp%E5%88%86%E6%9E%90%E7%B3%BB%E5%88%9702/","wordCount":0,"datePublished":"2023-07-13T06:21:54.000Z","dateModified":"2023-08-12T06:31:43.153Z","keywords":"产品经理,竞品分析","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 
